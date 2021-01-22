@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87 36" width="87" height="36">
+	<defs>
+		<image width="87" height="36" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAAAkCAYAAAD8fqYDAAACf0lEQVRoge2ZwZGrMAyG1UKu2YMlS+ObT9tCWkgLtEALtJAWaIEW0gIt0ALvACYGTAJM/GZh/M949mL825+9kuzA9frTphanwfX600LS15XgRlSCG1EJbkQluBGV4EZUghtRCW5EbYIrSCUAgCis407rHEpwIyo6XEEqmflXUBessF1q1tqLKKyNMXrt2EbrGysMzt1aexGkkhU2Yy96CmIe6s8Km0/+QnQX1MWa+f1XuEJ0f9fXGKNFYW2tvXwa18EIwRXEvAdZTT0FdSEK69BGOv+36zkiXGvtxRiju9NIz0/jssLGaH2bzoWRHmv+A9wGuH7On4kyRnosfndEuMz868YVxPzdAllR5U6sPxcmylhhs3bxrLBx3/v+jPQIhQ6AA8NlhY2DurRAB37YCB+uwkYQ8w1wW0FdCGLe+7eDv6Kn0fo28z8qXEEqfaiisPYXyETZFOrwl+guSOWWxfuJdPBXVDFRtpRgDw0XoDs1QnT3M3hfGTQu2c3goi6YKNsK1/n5/m5TnedoPX8VbrgM65KXvzj/1LikNS2T5nB7nx1wX3Ps/I0x2m3kNMH9WbhrTy7AuCwThfWspPoy3C5Wv/yF6D5svB+qzgAX4HVJCCa2QFgwWt92hoUq5O9XLUPpdxa4AB3g4LjBhIb5rpPrJbR5n3GCY6LsNHAXxw2UYi58bCrF+k1Z8p/Gf1e+rRn/VHC7SwQ9t8ANJdSpRvF/Qx19KrgA+6+/n/z7jasAlkPVVKeD23luf7hZ49+d2vC1OKRdcN89Hbrmf7PmyfGbcAG2Pzmu9XcXnDVzTD/zRFSCG1EJbkQluBGV4EZUghtRCW5EJbgRNcBNLU77B4M77gw008pLAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Lemon Logo" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

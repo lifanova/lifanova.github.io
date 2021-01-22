@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+ 	background-color: #eaeaea;
+}
+
+.main-separator {
+	padding-bottom: 85px;	
+}
+
+.wrapper {
+	/* Всего 1920 px - отступы слева и справа 405 * 2 => 1110px*/
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-left: 95px;
+  padding-right: 95px;
+ }
+
+.white-bg {
+	background-color: #fff;
+}
+
+.black-bg {
+	background-color: #000;
+}
+
+.header-wrap {
+	padding-top: 34px;
+	padding-bottom: 46px;	
+	
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+ .navigation {
+ 	display: flex;
+ 	align-items: center;
+ }
+
+ .logo-link {
+ 	display: inline-block;
+ 	margin-right: 86px;
+ }
+
+ .nav {
+ 	display: flex;
+ 	list-style-type: none;
+ }
+
+ .nav > li  {
+ 	margin-right: 22px;
+ }
+
+ .nav > li > a {
+ 	font-size: 16px;
+ 	color: #000;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
+
+ .nav > li > a:hover {
+ 	text-decoration: underline;
+ }
+
+ .search-field {
+ 	box-sizing: border-box;
+ 	width: 160px;
+ 	height: 26px;
+ 	border: 1px solid #eaeaea; 	
+
+ 	background-image: url(../img/search-icon.png);
+ 	background-repeat: no-repeat;
+ 	background-position: left 27px center;
+
+ 	padding-left: 50px;
+ 	padding-top: 8px;
+ 	padding-bottom: 8px;
+ 	padding-right: 16px;
+
+ 	/*padding: 8px 50px;*/
+ }
+
+.search-field::-webkit-input-placeholder {
+	color:#000;
+	font-size: 12px;
+	font-family: inherit;
+	text-transform: uppercase;
+}
+.search-field::-moz-placeholder {
+	/* Firefox 19+ */
+	color:#000;
+	font-size: 12px;
+	font-family: inherit;
+	text-transform: uppercase;
+	}
+
+.search-field:-moz-placeholder {
+	/* Firefox 18- */
+	color:#000;
+	font-size: 12px;
+	font-family: inherit;
+	text-transform: uppercase;
+}
+
+.search-field:-ms-input-placeholder {
+	color:#000;
+	font-size: 12px;
+	font-family: inherit;
+	text-transform: uppercase;
+}
+
+.main-wrap {
+	padding-top: 48px;
+	padding-bottom: 54px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-page {
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #fff;	
+}
+
+.main-logo {	
+	margin-bottom: 36px;
+}
+
+.main-title {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 24px;
+	color: #921026;
+	text-transform: uppercase;
+
+	margin-bottom: 32px;
+}
+
+.main-page > p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	line-height: 20px;
+
+	margin-bottom: 22px;
+}
+
+.btn {
+	font-size: 12px;
+	color: #000;
+	text-transform: uppercase;
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	padding: 8px 12px;
+}
+
+.gallery-wrapper {
+	max-width: 1120px;
+   margin: 0 auto;
+
+	display: flex;
+	background-color: #fff;
+
+	padding-top: 40px;
+	padding-bottom: 68px;
+	padding-left: 54px;
+	padding-right: 54px;	
+}
+
+.recipee {
+	margin-right: 42px;
+}
+
+.recipee:last-child {
+	margin-right: 0;
+}
+
+.recipee-preview {
+	margin-bottom: 14px;
+}
+
+.recipee-info > h4 {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+..recipee-info > span {
+	font-size: 12px;
+	color: #555555;
+}
+
+.footer-navigation {
+	display: flex;
+ 	align-items: center;
+
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.footer-logo-link {
+	display: inline-block;
+	margin-right: 109px;
+}
+
+.footer-nav {
+ 	display: flex;
+ 	align-items: center;
+ 	list-style-type: none;
+ }
+
+ .footer-nav > li  {
+ 	margin-right: 22px;
+ }
+
+ .footer-nav > li > a {
+ 	font-size: 12px;
+ 	color: #fefefe;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
+
+ .footer-nav > li > a:hover {
+ 	text-decoration: underline;
+ }
+
+ .contacts {
+ 	/*margin-left: 124px;*/
+ }
+
+ .contacts > p {
+ 	padding-top: 20px;
+ }
+
+ .contacts a {
+ 	font-size: 12px;
+ 	color: #fefefe;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
+
+ .social {
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	list-style-type: none;
+ }
+
+ .social > li {
+ 	margin-right: 10px;
+  }
+
+.social > li:last-child {
+ 	margin-right: 0;
+  }
